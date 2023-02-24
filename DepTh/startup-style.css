@@ -1,0 +1,64 @@
+body {
+  /* background-image: url(./image/brain.jpeg); */
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  justify-content: center;
+}
+
+.header-box {
+  list-style: none;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(32, 119, 189);
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(32, 119, 189);
+}
+
+hr {
+  border-color: rgb(32, 119, 189);
+  border-width: 3px;
+  max-width: cover;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.buffer {
+  height: 7.5rem;
+}
+
+.btn {
+  font-size: small;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {	
+  background-color:rgb(32, 119, 189);	
+  border-color: rgb(32, 119, 189);	
+  --bs-btn-hover-bg: #F05F44;	
+  --bs-btn-hover-border-color: #F05F44;
+}
+
+.btn-sm:hover {
+  border-width: 2px;
+}
+
+.text-box {
+  text-align: center;
+}
